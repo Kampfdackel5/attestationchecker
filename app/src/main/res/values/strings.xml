@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Attestation Checker</string>
+    <string name="attest">Attest</string>
+    <string name="notice">Note: The results will automatically be sent to an external server that will categorize and store them. Thank you for helping with my bachelor\'s thesis.</string>
+</resources>
