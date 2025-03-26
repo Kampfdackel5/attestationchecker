@@ -1,8 +1,10 @@
 package com.thesis.attestationchecker;
 
+import android.os.Build;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -36,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private final ExecutorService execService = Executors.newSingleThreadExecutor();
 
     @Override
+    @RequiresApi(api = Build.VERSION_CODES.S)
     protected void onCreate(Bundle savedInstanceState) {
         //Default init
         super.onCreate(savedInstanceState);
@@ -60,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     //Perform the attestation
+    @RequiresApi(api = Build.VERSION_CODES.S)
     public void  attest() {
         try {
             KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(
@@ -69,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
             KeyGenParameterSpec paramsSign = new KeyGenParameterSpec.Builder(
                     "cool_alias",
                     KeyProperties.PURPOSE_SIGN)
+                    .setDevicePropertiesAttestationIncluded(true)
                     .setAlgorithmParameterSpec(new java.security.spec.ECGenParameterSpec("secp256r1"))
                     .setDigests(KeyProperties.DIGEST_SHA256)
                     .setAttestationChallenge("challenging_challenge".getBytes())
@@ -109,8 +114,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
-        catch (Exception oops) {
-
+        catch (java.security.ProviderException oops) {
+            Log.d("Attestation failed due to lazy devs", oops.getMessage());}
+            //Implement standard  key generation here
+            //Separate key generation function from other stuff
+            //Also catch too old OS version and do the same as when devs are dumb
+        catch (Exception oopsi) {
+            Log.d("Attestation Failed", oopsi.getMessage());
         }
     }
 
