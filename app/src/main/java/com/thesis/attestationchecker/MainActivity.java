@@ -35,6 +35,7 @@ import android.util.Log;
 public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
+    private TextView textView3;
     private final ExecutorService execService = Executors.newSingleThreadExecutor();
 
     @Override
@@ -52,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Find objects
         textView = findViewById(R.id.textView);
+        textView3 = findViewById(R.id.textView3);
         Button button = findViewById(R.id.button);
 
         //Set event listener
@@ -63,64 +65,68 @@ public class MainActivity extends AppCompatActivity {
         }
 
     //Perform the attestation
-    @RequiresApi(api = Build.VERSION_CODES.S)
-    public void  attest() {
+    public void attest() {
         try {
             KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(
                     KeyProperties.KEY_ALGORITHM_EC, "AndroidKeyStore");
 
-            //Set parameters for the key
-            KeyGenParameterSpec paramsSign = new KeyGenParameterSpec.Builder(
-                    "cool_alias",
-                    KeyProperties.PURPOSE_SIGN)
-                    .setDevicePropertiesAttestationIncluded(true)
-                    .setAlgorithmParameterSpec(new java.security.spec.ECGenParameterSpec("secp256r1"))
-                    .setDigests(KeyProperties.DIGEST_SHA256)
-                    .setAttestationChallenge("challenging_challenge".getBytes())
-                    .build();
+            //Try for ID attestation if API version allows it
+            try {
+                KeyGenParameterSpec paramsSign = buildKeyGenParameterSpec(Build.VERSION.SDK_INT >= Build.VERSION_CODES.S);
+                keyPairGenerator.initialize(paramsSign);
+                keyPairGenerator.generateKeyPair();
 
-            //Load keystore
-            KeyStore keyStore = KeyStore.getInstance("AndroidKeyStore");
-            keyStore.load(null);
-
-            //Generate the key pair
-            keyPairGenerator.initialize(paramsSign);
-            keyPairGenerator.generateKeyPair();
-
-            Certificate[] certChain = keyStore.getCertificateChain("cool_alias");
-
-            if (certChain != null && certChain.length > 0) {
-
-                //The first certificate in the chain is the attestation certificate
-                X509Certificate attestationCert = (X509Certificate) certChain[0];
-
-                //We are interested in the attested certificate
-                String certInfo = "Certificate Subject: " + attestationCert.getSubjectDN().toString() + "\n\n" +
-                        "Certificate Issuer: " + attestationCert.getIssuerDN().toString() + "\n\n" +
-                        "Certificate Signature Algorithm: " + attestationCert.getSigAlgName() + "\n\n" +
-                        "Certificate Public Key: " + Base64.encodeToString(attestationCert.getPublicKey().getEncoded(), Base64.DEFAULT);
-
-                textView.setText(certInfo);
-
-                //Displaying more info about the chain could be done here
-
-                //Send to server here
-                sendCertificateToServer(Base64.encodeToString(attestationCert.getEncoded(), Base64.NO_WRAP));
-
-                //Get response (success or not) here
-            } else {
-                textView.setText("Failed to obtain attestation certificate.");
+            //Try without it if ID attestation wasn't implemented by devs
+            } catch (java.security.ProviderException e) {
+                textView3.setText("ID attestation failed... ): \nDevs were lazy on this one");
+                KeyGenParameterSpec paramsSign = buildKeyGenParameterSpec(false);
+                keyPairGenerator.initialize(paramsSign);
+                keyPairGenerator.generateKeyPair();
             }
+            processCertificateChain();
 
-
+        //Something went seriously wrong
+        } catch (Exception oops) {
+            Log.d("Attestation", "Attestation Failed", oops);
+            textView.setText("Whole attestation failed ):");
         }
-        catch (java.security.ProviderException oops) {
-            Log.d("Attestation failed due to lazy devs", oops.getMessage());}
-            //Implement standard  key generation here
-            //Separate key generation function from other stuff
-            //Also catch too old OS version and do the same as when devs are dumb
-        catch (Exception oopsi) {
-            Log.d("Attestation Failed", oopsi.getMessage());
+    }
+
+    private KeyGenParameterSpec buildKeyGenParameterSpec(boolean includeIDAttest) {
+        KeyGenParameterSpec.Builder builder = new KeyGenParameterSpec.Builder(
+                "cool_alias", KeyProperties.PURPOSE_SIGN)
+                .setAlgorithmParameterSpec(new java.security.spec.ECGenParameterSpec("secp256r1"))
+                .setDigests(KeyProperties.DIGEST_SHA256)
+                .setAttestationChallenge("challenging_challenge".getBytes());
+
+        // Only enable ID attestation if supported & desired
+        if (includeIDAttest && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            builder.setDevicePropertiesAttestationIncluded(true);
+        }
+
+        return builder.build();
+    }
+
+    private void processCertificateChain() throws Exception {
+        KeyStore keyStore = KeyStore.getInstance("AndroidKeyStore");
+        keyStore.load(null);
+
+        Certificate[] certChain = keyStore.getCertificateChain("cool_alias");
+
+        //Get the leaf certificate & display basic data to verify everything works
+        if (certChain != null && certChain.length > 0) {
+            X509Certificate attestationCert = (X509Certificate) certChain[0];
+            String certInfo =
+                    "Certificate Subject: " + attestationCert.getSubjectDN().toString() + "\n\n" +
+                    "Certificate Issuer: " + attestationCert.getIssuerDN().toString() + "\n\n" +
+                    "Certificate Signature Algorithm: " + attestationCert.getSigAlgName() + "\n\n" +
+                    "Certificate Public Key: " + Base64.encodeToString(attestationCert.getPublicKey().getEncoded(), Base64.DEFAULT);
+            textView.setText(certInfo);
+
+            //Send certificate to server in DER format
+            sendCertificateToServer(Base64.encodeToString(attestationCert.getEncoded(), Base64.NO_WRAP));
+        } else {
+            textView.setText("The key was attested, but no certificate extracted ):");
         }
     }
 
