@@ -26,7 +26,6 @@ import java.security.cert.X509Certificate;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.Arrays;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -139,8 +138,7 @@ public class MainActivity extends AppCompatActivity {
                 connection.setRequestProperty("Content-Type", "application/json");
                 connection.setDoOutput(true);
 
-                String jsonPayload = "{\"certificate\": \"" + certBase64 + "\"}";
-                Log.d("JSON Payload", jsonPayload);
+                String jsonPayload = "{\"certificate\": \"" + certBase64 + "\", \"model\": \"" + Build.MODEL + "\"}";
                 try (OutputStream os = connection.getOutputStream()) {
                     os.write(jsonPayload.getBytes());
                     os.flush();
