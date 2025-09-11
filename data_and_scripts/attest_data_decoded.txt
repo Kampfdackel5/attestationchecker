@@ -1,0 +1,1114 @@
+=== Model & Version ===
+Model: 23049PCD8G
+Attestation Version: 100
+
+=== Software Enforced ===
+creationDateTime: 1746614050022
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202304
+vendorPatchLevel: 20230401
+bootPatchLevel: 20230401
+
+=== Model & Version ===
+Model: 23076RN8DY
+Attestation Version: 100
+
+=== Software Enforced ===
+creationDateTime: 1746616568377
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202309
+vendorPatchLevel: 20230901
+bootPatchLevel: 20230901
+
+=== Model & Version ===
+Model: 22041219PG
+Attestation Version: 4
+
+=== Software Enforced ===
+creationDateTime: 1746617028000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202210
+
+=== Model & Version ===
+Model: 22071219CG
+Attestation Version: 100
+
+=== Software Enforced ===
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202208
+
+=== Model & Version ===
+Model: CPH2067
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746618351000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 100000
+osPatchLevel: 202012
+vendorPatchLevel: 20201205
+bootPatchLevel: 20201205
+
+=== Model & Version ===
+Model: CPH2145
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615440000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202111
+vendorPatchLevel: 20211105
+bootPatchLevel: 20211105
+
+=== Model & Version ===
+Model: CPH2307
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746614478000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202202
+vendorPatchLevel: 20220205
+bootPatchLevel: 20220205
+
+=== Model & Version ===
+Model: CPH2493
+Attestation Version: 100
+
+=== Software Enforced ===
+creationDateTime: 1746614424148
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202308
+vendorPatchLevel: 20230805
+bootPatchLevel: 20230805
+
+=== Model & Version ===
+Model: FP4
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746617584000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202209
+vendorPatchLevel: 20220905
+bootPatchLevel: 20220905
+
+=== Model & Version ===
+Model: FP5
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615766000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202308
+vendorPatchLevel: 20230805
+bootPatchLevel: 20230805
+
+=== Model & Version ===
+Model: M2006C3MNG
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746616328000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 100000
+osPatchLevel: 202105
+
+=== Model & Version ===
+Model: M2010J19SY
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1628817334000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 100000
+osPatchLevel: 202104
+vendorPatchLevel: 20210401
+bootPatchLevel: 20210401
+
+=== Model & Version ===
+Model: M2012K11AG
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1646144649000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202201
+vendorPatchLevel: 20220101
+bootPatchLevel: 20220101
+
+=== Model & Version ===
+Model: M2103K19PG
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615806000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202111
+
+=== Model & Version ===
+Model: moto g23
+Attestation Version: 4
+
+=== Software Enforced ===
+creationDateTime: 1746614423350
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202305
+attestationIdModel: moto g23
+attestationIdManufacturer: motorola
+attestationIdProduct: penangf_gpen
+attestationIdDevice: penangf
+attestationIdBrand: motorola
+vendorPatchLevel: 20230505
+bootPatchLevel: 20190606
+
+=== Model & Version ===
+Model: moto g62 5G
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746617518000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202211
+attestationIdBrand: motorola
+attestationIdDevice: rhodec
+attestationIdProduct: rhodec_ge
+attestationIdManufacturer: motorola
+attestationIdModel: moto g62 5G
+vendorPatchLevel: 20221101
+bootPatchLevel: 20221101
+
+=== Model & Version ===
+Model: motorola edge 30 fusion
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746618233000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202303
+attestationIdBrand: motorola
+attestationIdDevice: tundra
+attestationIdProduct: tundra_ge
+attestationIdManufacturer: motorola
+attestationIdModel: motorola edge 30 fusion
+vendorPatchLevel: 20230301
+bootPatchLevel: 20230301
+
+=== Model & Version ===
+Model: motorola edge 40
+Attestation Version: 4
+
+=== Software Enforced ===
+creationDateTime: 1746616038275
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202308
+attestationIdModel: motorola edge 40
+attestationIdManufacturer: motorola
+attestationIdProduct: lyriq_ge
+attestationIdDevice: lyriq
+attestationIdBrand: motorola
+vendorPatchLevel: 20230801
+bootPatchLevel: 20190606
+
+=== Model & Version ===
+Model: Nokia 3.4
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746616200000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202306
+attestationIdBrand: Nokia
+attestationIdDevice: DRS_sprout
+attestationIdProduct: DoctorStrange_00EEA
+attestationIdManufacturer: HMD Global
+attestationIdModel: Nokia 3.4
+vendorPatchLevel: 20230601
+bootPatchLevel: 20230601
+
+=== Model & Version ===
+Model: Nokia 5.4
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746614391000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202309
+attestationIdBrand: Nokia
+attestationIdDevice: DRD_sprout
+attestationIdProduct: DoctorDoom_00EEA
+attestationIdManufacturer: HMD Global
+attestationIdModel: Nokia 5.4
+vendorPatchLevel: 20230901
+bootPatchLevel: 20230901
+
+=== Model & Version ===
+Model: Nokia 7.2
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746616907000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202210
+vendorPatchLevel: 20221001
+bootPatchLevel: 20221001
+
+=== Model & Version ===
+Model: Nokia 8.3 5G
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746618843000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202211
+attestationIdBrand: Nokia
+attestationIdDevice: BGT_sprout
+attestationIdProduct: BabyGroot_00WW
+attestationIdManufacturer: HMD Global
+attestationIdModel: Nokia 8.3 5G
+vendorPatchLevel: 20221101
+bootPatchLevel: 20221101
+
+=== Model & Version ===
+Model: Nokia G22
+Attestation Version: 200
+
+=== Software Enforced ===
+creationDateTime: 1746615384556
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 140000
+osPatchLevel: 202409
+vendorPatchLevel: 20240905
+bootPatchLevel: 20240905
+
+=== Model & Version ===
+Model: Nokia G42 5G
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746614374000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 140000
+osPatchLevel: 202403
+attestationIdBrand: Nokia
+attestationIdDevice: SDW
+attestationIdProduct: Shadow_00EEA
+attestationIdManufacturer: HMD Global
+attestationIdModel: Nokia G42 5G
+vendorPatchLevel: 20240305
+bootPatchLevel: 20240305
+
+=== Model & Version ===
+Model: Nokia X10
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615887000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 140000
+osPatchLevel: 202408
+vendorPatchLevel: 20240801
+bootPatchLevel: 20240801
+
+=== Model & Version ===
+Model: Pixel 2
+Attestation Version: 2
+
+=== Software Enforced ===
+creationDateTime: 1746614308373
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+rollbackResistant: present
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202010
+
+=== Model & Version ===
+Model: Pixel 3
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615836000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202105
+vendorPatchLevel: 20210505
+bootPatchLevel: 20210505
+
+=== Model & Version ===
+Model: Pixel 4a
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615734000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202308
+attestationIdBrand: google
+attestationIdDevice: sunfish
+attestationIdProduct: sunfish
+attestationIdManufacturer: Google
+attestationIdModel: Pixel 4a
+vendorPatchLevel: 20230805
+bootPatchLevel: 20230805
+
+=== Model & Version ===
+Model: Pixel 5
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615216000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 140000
+osPatchLevel: 202310
+attestationIdBrand: google
+attestationIdDevice: redfin
+attestationIdProduct: redfin
+attestationIdManufacturer: Google
+attestationIdModel: Pixel 5
+vendorPatchLevel: 20231005
+bootPatchLevel: 20231005
+
+=== Model & Version ===
+Model: Pixel 6
+Attestation Version: 100
+
+=== Software Enforced ===
+creationDateTime: 1746617453373
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202203
+attestationIdBrand: google
+attestationIdDevice: oriole
+attestationIdProduct: oriole
+attestationIdManufacturer: Google
+attestationIdModel: Pixel 6
+vendorPatchLevel: 20220305
+bootPatchLevel: 20220305
+
+=== Model & Version ===
+Model: RMX3311
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746616441000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 120000
+osPatchLevel: 202207
+vendorPatchLevel: 20220705
+bootPatchLevel: 20220705
+
+=== Model & Version ===
+Model: SM-A146P
+Attestation Version: 100
+
+=== Software Enforced ===
+creationDateTime: 1746616054185
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202301
+attestationIdBrand: samsung
+attestationIdDevice: a14xm
+attestationIdProduct: a14xmeea
+attestationIdManufacturer: samsung
+attestationIdModel: SM-A146P
+vendorPatchLevel: 20230101
+bootPatchLevel: 20230101
+
+=== Model & Version ===
+Model: SM-A346B
+Attestation Version: 100
+
+=== Software Enforced ===
+creationDateTime: 1746617488513
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202306
+attestationIdBrand: samsung
+attestationIdDevice: a34x
+attestationIdProduct: a34xeea
+attestationIdManufacturer: samsung
+attestationIdModel: SM-A346B
+vendorPatchLevel: 20230601
+bootPatchLevel: 20230601
+
+=== Model & Version ===
+Model: SM-A525F
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746618471394
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202109
+vendorPatchLevel: 20210901
+bootPatchLevel: 20210901
+
+=== Model & Version ===
+Model: SM-A546B
+Attestation Version: 200
+
+=== Software Enforced ===
+creationDateTime: 1746616531461
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202308
+attestationIdBrand: samsung
+attestationIdDevice: a54x
+attestationIdProduct: a54xnaeea
+attestationIdManufacturer: samsung
+attestationIdModel: SM-A546B
+vendorPatchLevel: 20230801
+bootPatchLevel: 20230801
+
+=== Model & Version ===
+Model: SM-G973F
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615417208
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202101
+vendorPatchLevel: 20210101
+bootPatchLevel: 20210101
+
+=== Model & Version ===
+Model: SM-G980F
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746618686607
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202102
+vendorPatchLevel: 20210201
+bootPatchLevel: 20210201
+
+=== Model & Version ===
+Model: SM-S901B
+Attestation Version: 100
+
+=== Software Enforced ===
+creationDateTime: 1744886299686
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 140000
+osPatchLevel: 202503
+vendorPatchLevel: 20250301
+bootPatchLevel: 20250301
+
+=== Model & Version ===
+Model: SM-S911B
+Attestation Version: 200
+
+=== Software Enforced ===
+creationDateTime: 1746616172080
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202306
+attestationIdBrand: samsung
+attestationIdDevice: dm1q
+attestationIdProduct: dm1qxeea
+attestationIdManufacturer: samsung
+attestationIdModel: SM-S911B
+vendorPatchLevel: 20230601
+bootPatchLevel: 20230601
+
+=== Model & Version ===
+Model: TECNO Mobile KI7
+Attestation Version: 4
+
+=== Software Enforced ===
+creationDateTime: 1746618500876
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202309
+vendorPatchLevel: 20230905
+bootPatchLevel: 20190606
+
+=== Model & Version ===
+Model: XQ-BT52
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615977000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202112
+vendorPatchLevel: 20211201
+bootPatchLevel: 20211201
+
+=== Model & Version ===
+Model: XQ-CC54
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746616469000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202304
+attestationIdBrand: Sony
+attestationIdDevice: XQ-CC54
+attestationIdProduct: XQ-CC54_EEA
+attestationIdManufacturer: Sony
+attestationIdModel: XQ-CC54
+vendorPatchLevel: 20230401
+bootPatchLevel: 20230401
+
+=== Model & Version ===
+Model: XQ-DC54
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746616009000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202308
+attestationIdBrand: Sony
+attestationIdDevice: XQ-DC54
+attestationIdProduct: XQ-DC54_EEA
+attestationIdManufacturer: Sony
+attestationIdModel: XQ-DC54
+vendorPatchLevel: 20230801
+bootPatchLevel: 20230801
+
+=== Model & Version ===
+Model: XQ-DE54
+Attestation Version: 200
+
+=== Software Enforced ===
+creationDateTime: 1746613784751
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202307
+attestationIdBrand: Sony
+attestationIdDevice: XQ-DE54
+attestationIdProduct: XQ-DE54_EEA
+attestationIdManufacturer: Sony
+attestationIdModel: XQ-DE54
+vendorPatchLevel: 20230701
+bootPatchLevel: 20230701
+
+=== Model & Version ===
+Model: XQ-DQ54
+Attestation Version: 200
+
+=== Software Enforced ===
+creationDateTime: 1746614148048
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 130000
+osPatchLevel: 202307
+attestationIdBrand: Sony
+attestationIdDevice: XQ-DQ54
+attestationIdProduct: XQ-DQ54_EEA
+attestationIdManufacturer: Sony
+attestationIdModel: XQ-DQ54
+vendorPatchLevel: 20230701
+bootPatchLevel: 20230701
+
+=== Model & Version ===
+Model: ZTE 8030
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746615267000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202112
+
+=== Model & Version ===
+Model: ZTE 9045
+Attestation Version: 3
+
+=== Software Enforced ===
+creationDateTime: 1746614350000
+unhandled tag [709]
+
+=== Hardware Enforced ===
+unhandled tag [1]
+unhandled tag [2]
+unhandled tag [3]
+unhandled tag [5]
+ecCurve: 1
+noAuthRequired: present
+origin: 0
+unhandled tag [704]
+osVersion: 110000
+osPatchLevel: 202402
